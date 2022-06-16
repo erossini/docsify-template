@@ -4,7 +4,7 @@
 
 * [Examples](./examples/index)
 
-  * 📊 Mermaid
+  * [📊 Mermaid](./examples/Mermaid/index.md)
     - [Flowchart](./examples/Mermaid/flowchart.md)
     - [Sequence diagram](./examples/Mermaid/sequenceDiagram.md)
     - [Class Diagram](./examples/Mermaid/classDiagram.md)
