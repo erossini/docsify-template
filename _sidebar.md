@@ -4,7 +4,7 @@
 
 * [Examples](./examples/index)
 
-  * [📊 Mermaid](./examples/Mermaid/index.md)
+  * [Mermaid](./examples/Mermaid/index.md)
     - [Flowchart](./examples/Mermaid/flowchart.md)
     - [Sequence diagram](./examples/Mermaid/sequenceDiagram.md)
     - [Class Diagram](./examples/Mermaid/classDiagram.md)
@@ -18,9 +18,17 @@
     - [C4C Diagram (Context) Diagram 🦺⚠️](./examples/Mermaid/c4c.md)
     - [Other Examples](./examples/Mermaid/examples.md)
 
-  * [Example 1](./examples/example1/index)
-  * [Example 2](./examples/example2/index)
-  * [Example 3](./examples/example3/index)
+  * [📊 Charty](./examples/Charty/index)
+    - [Area](./examples/Charty/area.md)
+    - [Bar](./examples/Charty/bar.md)
+    - [Donut](./examples/Charty/donut.md)
+    - [Line](./examples/Charty/line.md)
+    - [Pie](./examples/Charty/pie.md)
+    - [Plot](./examples/Charty/plot.md)
+    - [Radar](./examples/Charty/radar.md)
+    - [Rating](./examples/Charty/rating.md)
+    - [Rings](./examples/Charty/rings.md)
+    - [Section](./examples/Charty/section.md)
 
 * [About](./about/index)
 
