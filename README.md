@@ -2,7 +2,7 @@
 
 This site was created using [**Docsify**](https://docsify.js.org), which is an open source documentation site generator, and imported in GitHub page. This site was created for [**PureSourceCode.com**](https://www.puresourcecode.com/) demo.
 
-Demo website [here](https://erossini.github.io/docsify-template/).
+Demo website [here](https://erossini.github.io/docsify-template/). The repository of this template is on [GitHub](https://github.com/erossini/docsify-template).
 
 ## Feature
 In this template for Docsify, you have the basic implementation plus few plugins:
