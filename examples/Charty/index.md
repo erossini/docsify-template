@@ -1,3 +1,3 @@
-# Example 2
+# Charty
 
 This is an example of page 2
