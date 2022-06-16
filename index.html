@@ -25,6 +25,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
     var num = 0;
+    var currentCodeExample = 0;
 
     function escapeHTML(html) {
         return html
@@ -34,7 +35,7 @@
           .replaceAll('"', '&quot;')
           .replaceAll("'", '&apos;');
       }
-      
+
     mermaid.initialize({ startOnLoad: false });
 
     window.$docsify = {
@@ -44,12 +45,7 @@
         "debug": false
       },
 
-      search: [
-        "/",
-        "/examples",
-        "/contact",
-        "/about"
-      ],
+      search: auto,
 
       depth: 3,
 
@@ -75,9 +71,7 @@
 
                 if (lang === 'mmd' || lang === 'mermaid-example') {
                   currentCodeExample++;
-                  colorize.push(currentCodeExample);
-                  resultingHTML +=
-                    '<pre id="code' + currentCodeExample + '">' + escapeHTML(code) + '</pre>';
+                  resultingHTML += '<pre id="code' + currentCodeExample + '">' + escapeHTML(code) + '</pre>';
                 }
 
                 if (lang === 'mermaid' || lang === 'mermaid-example') {
