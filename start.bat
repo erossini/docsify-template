@@ -1,4 +1,4 @@
-docsify serve docs
+docsify serve ./
 
 REM open the document in Microsoft Edge
 start msedge http://localhost:3000
